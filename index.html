@@ -1,0 +1,63 @@
+<html>
+    
+   <head>
+       <title>My Music Player</title>
+       <!--now link the stylesheet here-->
+       <link rel="stylesheet" href="styles.css">
+       <!--The Bootstrap setup-->
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+      
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <!-- The links for the google font-->
+        <!--Font 1-->
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Shalimar&display=swap" rel="stylesheet">
+
+   </head>
+   <body >
+       <!--Store the list of your songs here-->
+    <audio id="myAudio">
+        <source src="" type="audio/ogg">
+        
+      
+      </audio>
+
+
+       <div class="container-fluid">
+
+        <h1>Welcome to my Music Player</h1>
+        <span class="rounded-lg">
+            <img src="images/dj modi.jpeg" class="center music-img">
+        </span>
+          <h3 class="artist-name">Artist</h3> 
+          <div class="controls" >
+            <a href="#" class="previous round ">&#8249;</a>
+       
+            <button class="play-button" >Pause/Play</button>
+            <a href="#" class="next round  ">&#8250;</a>  
+          </div>
+            
+      
+          <div id="volume">
+            <input type="range" id="volume-control" >
+          </div>
+          
+          <progress id="seekbar" value="0" max="1"></progress>
+
+
+      
+  
+
+       </div>
+<script src="index.js"></script>
+   </body>
+
+</html>

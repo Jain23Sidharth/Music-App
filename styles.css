@@ -1,0 +1,81 @@
+h1{
+    font-family: 'Shalimar', cursive;
+    text-align: center;
+    font-size:90px;
+    color: wheat;
+}
+
+body{
+    background-color: #1DB954;
+    background-image: url(images/download\ \(4\).jpeg);
+}
+
+.center{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+height: 250px;
+width:250px;;
+}
+.artist-name{
+  color: white;
+}
+h2{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+/* Button animation CSS */
+
+  
+  /* Prev And Next buttons CSS */
+  .controls{
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    width:100%;
+ text-align: center;
+   
+  }
+  
+ 
+  .previous {
+    background-color: #f1f1f1;
+    color: black;
+    
+    
+   
+  }
+  
+  .next {
+    background-color: #f1f1f1;
+    color: black;
+   
+  }
+  
+  .round {
+    border-radius: 50%;
+  }
+
+
+
+
+  .fa-volume-mute{
+      size:2x;
+  }
+#volume{
+      text-align: center;
+  }
+
+  #seekbar {
+    width: 100%;
+    background-color:pink;
+    position:absolute;
+    top:98%;
+    right:0.1%;
+  }
+  
+  
